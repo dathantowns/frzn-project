@@ -1,0 +1,1 @@
+This is my first attempt at making a website independently, and hopefully a chance to employ everything im learning in a practical way!! Seeing as i have a ton of content of me and my friends music collective, i decided to take a swing at creating a FRZN CHZN website.
