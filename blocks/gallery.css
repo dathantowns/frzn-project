@@ -1,0 +1,18 @@
+.gallery {
+  width: 80%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(2, min-content);
+  gap: 2vh;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.gallery__iframe {
+  max-width: 30vw;
+  min-height: 100px;
+  justify-self: center;
+  border: none;
+  /* transition: min-height 0.2s ease-in; */
+}

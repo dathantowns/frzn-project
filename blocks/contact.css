@@ -1,0 +1,35 @@
+.contact {
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 30px 80px 40px;
+  position: relative;
+  box-sizing: border-box;
+  background-color: black;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/contact-bg.jpg);
+  justify-content: center;
+}
+
+.form__title {
+  display: block;
+  color: black;
+  width: max-content;
+  color: orange;
+  margin: 5vh auto 10vh auto;
+  max-width: max-content;
+  line-height: 75px;
+  font-size: 3em;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .contact {
+    padding: 0;
+  }
+
+  .form__title {
+    margin: auto auto 5vh auto;
+  }
+}

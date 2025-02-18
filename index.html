@@ -25,7 +25,11 @@
     <div class="page">
       <header class="header">
         <nav class="nav">
-          <img class="nav__logo" src=" " alt="logo loading" />
+          <img
+            class="nav__logo"
+            alt="logo loading"
+            src="./images/FC-logo-new.png"
+          />
           <ul class="nav__links">
             <li>
               <a class="nav__link" href="#music">Music</a>
@@ -34,7 +38,7 @@
               <a class="nav__link" href="#events">Events</a>
             </li>
             <li>
-              <a class="nav__link" href="contact">Contact Us</a>
+              <a class="nav__link" href="#contact">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -42,26 +46,86 @@
         <p class="header__subtitle">Welcome to the show.</p>
       </header>
       <main class="content">
-        <section class="muscic" id="music"></section>
+        <section class="music" id="music">
+          <h2 class="music__title">MUSIC</h2>
+          <div class="gallery">
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/5TVUGcuaF9dYuw8L1Zdn4f?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/5qCvXqFnIkTqSvj7ptzPfC?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/5zEJm1TIp7aZyGgHIhloPt?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/6qq7q9g7CNj79VndemWiEK?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/5R6byIGYzgIombC3gMuzry?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+            <iframe
+              class="gallery__iframe"
+              style="border-radius: 12px"
+              src="https://open.spotify.com/embed/album/6gSLju0ff4gsG4Slfopgnq?utm_source=generator"
+              allowfullscreen=""
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </section>
         <section class="events" id="events"></section>
         <section class="contact" id="contact">
-          <form class="contact__form">
-            <h2 class="form__title">Contact Us!</h2>
+          <h2 class="form__title">Contact Us!</h2>
+          <form class="form">
             <fieldset class="form__fieldset">
-              <label for="name">Name</label>
-              <input type="text" placeholder="Type your name here" id="name" />
-              <label for="email">Email</label>
+              <label for="name" class="form__label">Name</label>
+              <input
+                type="text"
+                placeholder="Type your name here"
+                id="name"
+                class="form__input"
+              />
+              <label for="email" class="form__label">Email</label>
               <input
                 type="email"
                 placeholder="Type your Email address here"
                 id="email"
+                class="form__input"
               />
-              <label for="message">Message</label>
+              <label for="message" class="form__label">Message</label>
               <textarea
                 id="message"
                 placeholder="Leave us a message!"
+                class="form__textarea"
               ></textarea>
             </fieldset>
+            <button type="submit" class="submit__button">Send Message</button>
           </form>
         </section>
       </main>

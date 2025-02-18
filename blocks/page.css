@@ -1,0 +1,9 @@
+.page {
+  width: 100%;
+  max-width: 1500px;
+  height: 100%;
+  margin: auto;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Inter", serif;
+}
