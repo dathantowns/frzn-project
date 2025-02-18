@@ -1,0 +1,47 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  z-index: 1;
+}
+
+.nav__logo {
+  width: 5vw;
+  width: 5vw;
+}
+
+.nav__links {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav__link {
+  color: white;
+  font-family: "Rubik Glitch", Arial, sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  text-decoration: none;
+  margin-left: 2vw;
+  transition: color 0.5s linear;
+  transition: font-size 0.5s linear;
+}
+
+.nav__link:hover {
+  color: orange;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .nav__links {
+    display: block;
+    margin-top: 0;
+    text-align: end;
+    text-decoration: underline;
+  }
+
+  .nav__logo {
+    width: 5vh;
+    height: 5vh;
+  }
+}
